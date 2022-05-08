@@ -1,0 +1,10 @@
+{
+  "bindIp": "0.0.0.0",
+  "bindPort": 8082,
+  "Verbose": true,
+  "servers": [
+    {"name": "web ssh","url": "http://127.0.0.1:2222","access_path":"/ssh/*id","des": "https://github.com/hktalent/webssh2"},
+    {"name": "Hack-Tools","staticDir": "./static/hacktools","des": "https://github.com/hktalent/Hack-Tools"},
+    {"name": "51pwn hacker Tools App","staticDir": "./static/app", "accessPath": "/app","des": "https://github.com/hktalent/hackerToolsApp"}
+  ]
+}
